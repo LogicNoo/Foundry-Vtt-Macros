@@ -1,3 +1,4 @@
+//mostly witten by Freeze: https://gitlab.com/Freeze020
 //rendering promt
 let d = new Dialog({
  title: "What do you wan to do?",
