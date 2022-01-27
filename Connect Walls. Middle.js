@@ -8,18 +8,10 @@ let  wall_a_xy2 = [wall_a.data.c[2], wall_a.data.c[3]]
 let  wall_b_xy1 = [wall_b.data.c[0], wall_b.data.c[1]]
 let  wall_b_xy2 = [wall_b.data.c[2], wall_b.data.c[3]]
 
-console.log( wall_a_xy1)
-console.log( wall_a_xy2)
 
-console.log( wall_b_xy1)
-console.log( wall_b_xy2)
 
 let distances = [];
-console.log("wall_a_xy1, wall_b_xy1: " + distance (wall_a_xy1, wall_b_xy1))
-console.log("wall_a_xy1, wall_b_xy2: " + distance (wall_a_xy1, wall_b_xy2))
 
-console.log("wall_a_xy2, wall_b_xy1:" + distance (wall_a_xy2, wall_b_xy1))
-console.log("wall_a_xy2, wall_b_xy2:" + distance (wall_a_xy2, wall_b_xy2))
 
 distances.push(distance (wall_a_xy1, wall_b_xy1))
 distances.push(distance (wall_a_xy1, wall_b_xy2))
@@ -28,9 +20,9 @@ distances.push(distance (wall_a_xy2, wall_b_xy1))
 distances.push(distance (wall_a_xy2, wall_b_xy2))
 
 
-console.log(Math.min.apply(null,distances))
+
 let min = Math.min.apply(null,distances)
-console.log(distances.indexOf(min))
+
 let index = distances.indexOf(min)
 
 let x =""   //mid point
