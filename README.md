@@ -1,1 +1,1 @@
-Prolly written but functional macros
+Poorly  written but functional macros
