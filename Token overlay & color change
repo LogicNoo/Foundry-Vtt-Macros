@@ -1,0 +1,3 @@
+if (token.data.tint == "#ff6666"){ token.document.update({tint: ""  }) } 
+else { token.document.update({ tint: "#ff6666" }) };
+token.toggleEffect("icons/svg/skull.svg", {overlay: true});
